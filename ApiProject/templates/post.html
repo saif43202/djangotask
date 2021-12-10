@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>login</title>
+</head>
+<body>
+	<form name="mylg" action="/mpost/" method="POST">  
+		{% csrf_token %}
+		Blog Id:<input type="text" name="ablogid"><br>
+		Subject:<input type="text" name="asubject"><br>
+		Your Blog:<textarea name="atext" rows="10" cols="30"></textarea><br>
+		<input type="submit" value="Post">
+	</form>	
+</body>
+</html>

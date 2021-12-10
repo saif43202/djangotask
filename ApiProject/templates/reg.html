@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>registration page</title>
+</head>
+<body>
+	<form name="myf" action="/savereg/" method="POST">  <!--{% csrf_token %}-->
+		User Name:<input type="text" name="ausername"><br>
+		First Name:<input type="text" name="afirstname"><br>
+		Last Name:<input type="text" name="alastname"><br>
+		E-mail Id:<input type="email" name="aemailid"><br>
+		Password:<input type="password" name="apassword"><br>
+		<input type="submit">
+	</form>
+</body>
+</html>
+
